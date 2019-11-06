@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1A202C;
+}
+.header-navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.header .header-nav {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.header .header-logo {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.header .header-nav ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 12px;
+}
+.header .header-nav ul li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+.header .header-nav ul li a {
+    text-decoration: none;
+    color: #CBD5E0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.header .header-nav ul li a:hover {
+    text-decoration: underline;
+    color:#1F61AE;
+}
+.header .header-nav .active-nav {
+    text-decoration: underline;
+    color:#1F61AE;
+}
+.header .header-title {
+    font-size: 3em;
+    position: relative;
+    text-align: center;
+    margin-top: -350px;
+    background-color: white;
+    width: 25%;
+    margin-left: 530px;
+}
+header .header-nav ul .last{
+    margin-left: 50px;
+}
+
+.header .header-bg {
+    background-image: url(../../images/home-bg.jpeg);
+    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* MOUSE */
+
+.speaker-container{
+    width: 100%;
+    background-color: #1A202C;
+    height: 700px;
+}
+.speaker-title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    color: #CBD5E0;
+
+}
+.speaker-title hr{
+    margin-top: 10px;
+    margin-left: 620px;
+    width: 8%;
+    background-color: #CBD5E0;
+    padding: 2px;
+}
+.speaker-text{
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.speaker-text p{   
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #CBD5E0;
+}
+.speaker-image{
+    margin-top: 20px;
+    float: right;
+    margin-right: 50px;
+}
+
+/* Keyboard */
+
+.headphone-container{
+    width: 100%;
+    height: 700px;
+    margin-top: -100px;
+    background-color: #1A202C;
+}
+.headphone-title{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    color: #CBD5E0;
+}
+.headphone-title hr{
+    margin-top: 10px;
+    margin-left: 605px;
+    width: 10%;
+    background-color: #CBD5E0;
+    padding: 2px;
+}
+.headphone-image{
+    float: left;
+    margin-left: 140px;
+}
+.headphone-image img{
+    width: 450px;
+}
+.headphone-text{
+    float: right;
+    width: 40%;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.headphone-text p{   
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #CBD5E0;
+}
+
+/* Keyboard Mouse */
+
+.earphone-container{
+    width: 100%;
+    height: 700px;
+    background-color: #1A202C;
+    margin-top: -100px;
+}
+.earphone-title{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    color: #CBD5E0;
+}
+.earphone-title hr{
+    margin-top: 10px;
+    margin-left: 603px;
+    width: 10%;
+    background-color: #CBD5E0;
+    padding: 2px;
+}
+.earphone-image{
+    float: right;
+    margin-right: 190px;
+    margin-top: 50px;
+}
+.earphone-image img{
+    width: 350px;
+}
+.earphone-text{
+    float: left;
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.earphone-text p{   
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #CBD5E0;
+}
+
+/* FOOTER */
+
+.footer-con{
+    width: 100%;
+    background-color: black;
+}
+.cisw{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+.contact, .information, .services, .newsletter {
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.footer-con a{
+    text-decoration: none;
+    color: #CBD5E0;
+}
+.newsletter{
+    margin-left: -10px;
+    width: 30%;
+}
+.footer-con h4{
+    font-size: 1em;
+    margin-bottom: 20px;
+    color:#1F61AE;
+
+}
+.footer-con p{
+    font-size: .8em;
+}
+.footer-con ul li a{
+    font-size: .8em;
+}
+
+.footer-con ul li a:hover{
+    color:#1F61AE;
+    text-decoration: underline;
+}
+.footer-con .contact ul li{
+    font-size: .8em;
+}
+
+.footer-con .contact ul li{
+    margin-top: 10px;
+    color: #CBD5E0;
+}
+.footer-con .contact ul{
+    margin-top: 25px;
+}
+.footer-con .newsletter p{
+    color: #CBD5E0;
+}
+.footer-con ul{
+    list-style-type: none;
+}
+.footer-con ul li{
+    line-height: 1.6em;
+    color: #CBD5E0;
+}
+.footer-con .arr{
+    font-weight: bold;
+}
